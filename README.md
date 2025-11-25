@@ -58,13 +58,9 @@
 
 ## Tech Stack
 
-1. **Generative AI on Vertex AI**
+1. **Cloud Infrastructure on GCP**
     - **Google Gemini:** Used across AI agents for high-quality, low-latency responses, with function calling support
     - **Imagen 4:** Used to generate photo-realistic image catalog of fictional appliances, and other in-app graphics
-    - **RAG Engine:** Supports various AI Agents by retrieving relevant answers from the corpus of support manuals
-    - **Document AI Layout Parser:** Extracts structured content such as tables from manuals to build a RAG corpus
-
-2. **Cloud Infrastructure on GCP**
     - **Cloud SQL:** Stores structured data about appliances, customers, registered appliances, and engineer records
     - **Cloud Storage:** Stores graphics, invoices, warranty docs, manuals and attachments linked to service requests
     - **Firestore:** Manages realtime data for service requests, and stores appliance specifications in a NoSQL format
@@ -72,7 +68,7 @@
     - **Google Auth Platform:** Provides secure user authentication and session management, using Google Oauth2
     - **Google Maps SDK:** Address auto-complete, validation, geocoding, and distance-based engineer assignment
 
-3. **Frontend and Communication Services**
+2. **Frontend and Communication Services**
     - **Streamlit:** Python-based frontend with support for custom components, & CSS to enhance the user interface
     - **Twilio:** For delivering realtime SMS alert to users about service status updates, and engineer visit notification
     - **Brevo:** Sends automated transactional and notification emails—such as service confirmations, and reminders
