@@ -2,7 +2,7 @@
 
 <P align='justify'>Managing home appliances often involves juggling manuals, service calls and scattered records — a highly frustrating experience for many homeowners. With the rise of <B>Agentic AI</B> design framework, there's an opportunity to streamline and improve this process aptly through <B>intelligent systems</B> that can understand, guide, and act on behalf of the users</P>
 
-<P align='justify'>This project showcases LogIQ, a smart home appliance management tool that offers an AI-powered ecosystem for customers and service engineers to manage household appliances and service bookings. The engineer application is designed to support field technicians with ticket management, navigation assistance, and AI-guided troubleshooting. Alongside this, the customer facing app enables users to manage their registered appliances, raise service requests, and access information about appliance care and maintenance. Users can interact with both the applications through the UI or they can switch to <B>AI Mode</B> for a guided, chat-based experience. Explore the LogIQ customers app <a href='https://logiq-customers-1017247316742.us-central1.run.app/'>here</a></P>
+<P align='justify'>This project showcases LogIQ, a smart home appliance management tool that offers an AI-powered ecosystem for customers and service engineers to manage household appliances and service bookings. The engineer application is designed to support field technicians with ticket management, navigation assistance, and AI-guided troubleshooting. Alongside this, the customer facing app enables users to manage their registered appliances, raise service requests, and access information about appliance care and maintenance. Users can interact with both the applications through the UI or they can switch to the <B>AI Mode</B> for a guided, chat-based experience. Explore the LogIQ customers app <a href='https://logiq-customers-1017247316742.us-central1.run.app/'>here</a></P>
 
 
 
@@ -15,6 +15,8 @@
 - **Reporting:** Verify onsite visit using customer-generated OTP verification and report any unsafe working condition
 - **Manage Engineer Profile:** Edit & update engineer's personal details, specializations and other profile information
 
+![Engineer App](assets/readme/1.png)
+
 ### Engineer Agent
 
 - **account_management_agent**: Manages the engineer's profile, specializations, availability, and account workflows
@@ -22,6 +24,9 @@
 - **ticket_management_agent**: Fetches assigned requests, tracks activity, updates progress and handles past records
 - **troubleshoot_agent**: Assists engineer with troubleshooting guidance, common ticket patterns, repair procedures
 
+![Engineer Agent](assets/readme/0.png)
+![Engineer Agent](assets/readme/2.png)
+![Engineer Agent](assets/readme/3.png)
 
 ## Customer App Features
 
@@ -33,6 +38,8 @@
 - **View Appliances Details:** Access centralized view of all registered appliances with warranty, specs, & support info
 - **View Service Requests Status:** Track ongoing and past service requests, including live status and engineer details
 
+![Customer App](assets/readme/6.png)
+
 
 ### Customer Agent
 
@@ -43,6 +50,10 @@
 - **register_onsite_service_request_agent**: Facilitates the scheduling of appliance repair and onsite maintenance visit
 - **service_requests_agent:** Fetches the status and history of the user’s service requests, including engineer's activity
 - **update_customer_profile_agent:** Helps update customer's profile including their name, contact details & address
+
+![Customer Agent](assets/readme/7.png)
+![Customer Agent](assets/readme/4.png)
+![Customer Agent](assets/readme/5.png)
 
 
 ## Tech Stack
