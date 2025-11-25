@@ -82,13 +82,6 @@ To visually represent these products within the application, corresponding image
 
 For implementing **Retrieval-Augmented Generation (RAG)** workflow, publicly available service manuals were sourced and preprocessed. A service manual was linked to each sub-category to demonstrate **grounded** response generation.
 
-## Finding and Learnings
-
-1. **Agentic AI enables task decomposition:** Breaking down responsibilities across multiple agents improved lucidity, maintainability and reusability of logic across user tasks while allowing agents to attend to a single task at hand
-2. **Context management is key in multi-turn interactions:** Maintaining session state & context across different user intents was essential to avoid redundant questions & to ensure fluid conversations between the user & the agent
-3. **RAG enhances response accuracy:** Integrating the RAG Engine pipeline grounded in service manuals significantly improved the relevance, factual grounding, and trustworthiness of the responses from the troubleshooting agent
-4. **Tool/function calling is essential for dynamic interactions:** Using Gemini 2.5 Pro’s ability to invoke tools enabled real-time execution of tasks like fetching appliance data, updating customer profile, and logging service requests
-
 
 ## Support and Feedback
 Contributions are always welcome from the community. If you have any **queries** or would like to **share any feedback**, please drop a line at thisisashwinraj@gmail.com. You can also connect with me over [LinkedIn](https://www.linkedin.com/in/thisisashwinraj/) or [X (previously Twitter)](https://x.com/thisisashwinraj)
