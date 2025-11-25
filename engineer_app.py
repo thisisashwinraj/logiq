@@ -2545,7 +2545,7 @@ if __name__ == "__main__":
                 comfortable being accessed, or analyzed!
 
                 Learn more here: 
-                github.com/thisisashwinraj/logiq-smart-appliance-management
+                github.com/thisisashwinraj/logiq
                 """
 
                 if st.session_state.themes["current_theme"] == "dark":
