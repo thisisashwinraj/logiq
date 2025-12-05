@@ -5,8 +5,8 @@
 <P align='justify'>This project showcases LogIQ, a smart home appliance management tool that offers an AI-powered ecosystem for customers and service engineers to manage household appliances and service bookings. The engineer application is designed to support field technicians with ticket management, navigation assistance, and AI-guided troubleshooting. Alongside this, the customer facing app enables users to manage their registered appliances, raise service requests, and access information about appliance care and maintenance. Users can interact with both the applications through the UI, or they can switch to the <B>AI Mode</B> for a guided, chat-based experience. Explore the LogIQ customers app <a href='https://logiq-customers-1017247316742.us-central1.run.app/'>here</a></P>
 
 ```diff
-# Acknowledgement
-# Google AI Developer Programs team supported this work by providing Google Cloud Credit
+@@ Acknowledgement @@
+Google AI Developer Programs team supported this work by providing Google Cloud Credit
 ```
 
 
